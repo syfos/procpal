@@ -1,14 +1,14 @@
 [package]
-name = "procspal"
+name = "procpal"
 version = "0.1.0"
 edition = "2024"
-description = "Processes but organized parallel in bg -- A tool to handle processes parallely."
+description = "The pal daemon which executes commands parallely."
 license = "MIT"
 readme = "README.md"
 repository = "https://github.com/ipude/pugit"
 keywords = ["cli", "tui", "tmux", "zellij", "mprocs"]
 categories = ["command-line-utilities"]
-default-run = "procspal"
+default-run = "procpal"
 
 [dependencies]
 ratatui = "0.30.2"
